@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FK CRVENA ZVEZDA</title>
+	<link rel="shortcut icon" href="images/slikagrb.jpg" type="image/jpg">
+	<meta http-equiv="Content-Language" content="sr"/>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="forum.css" />
+	<script type="text/javascript" src="provera.js">
+
+	</script>
+</head>
+<body>
+<div id="wrap">
+<div id="header">
+	<div id="slikagrb">
+		<a href= "index.html"><img src="images/slikagrb.jpg" /></a>
+	</div>
+	<div id="imekluba">
+		<h1>FK CRVENA ZVEZDA</h1>
+		
+
+	</div>
+</div>
+
+<div id="meni">
+	
+		<div class="menu">
+		<a href="index.html"><h2>POČETNA</h2></a>
+		</div>
+		<div class="menu">
+		<a href="istorija.html"><h2>ISTORIJA</h2></a>
+		</div>
+		<div class="menu">
+		<a href="igraci.html"><h2>IGRAČI</h2></a>
+		</div>
+		<div class="menu">
+		<a href="struka.html"><h2>STRUČNI ŠTAB</h2></a>
+		</div>
+		<div class="menu">
+		<a href="tabela.html"><h2>TABELA</h2></a>
+		</div>
+		<div class="menu">
+		<a href="galerija.html"><h2>GALERIJA</h2></a>
+		</div>
+		<div class="menu">
+		<a href="kontakt.html"><h2>KONTAKT</h2></a>
+		</div>
+		<div class="menu">
+		<a href="forum.html"><h2>FORUM</h2></a>
+		</div>
+</div>
+
+
+<div id="right">
+	<div id="facebook">
+		<a href="https://www.facebook.com/crvenazvezdafk">Budite naš fan na <span>Facebook-u</span></a>
+	</div>
+	<div id="twitter">
+		<a href="https://twitter.com/crvenazvezdafk">Pratite nas na <span>Twitter-u</span></a>
+	</div>
+	<p>SPONZORI:</p>
+	<p><a href="http://www.gazprom.com/"><img src="images/gazprom.jpg" /></a></p>
+	<p><a href="http://www.telekom.rs/"><img src="images/telekom.jpg" /></a></p>
+	<p><a href="http://lavpivo.rs/"><img src="images/lav.jpg" /></a></p>
+	<p><a href="http://www.puma.com/"><img src="images/puma.jpg" /></a></p>
+	<p><a href="http://www.vodadiva.com/"><img src="images/diva.jpg" /></a></p>
+	<p><a href="http://www.airserbia.com/"><img src="images/air.jpg" /></a></p>
+	
+</div>
+
+<div id="sadrzaj">
+
+	<p><h1>Logovanje:</h1></p>
+	<form onsubmit="return provera()">
+		<p>KORISNIČKO IME: <input type="text" name="korisnik" /></p><br/>
+		<p>ŠIFRA: <input type="password" name="sifrakorisnika" /></p>
+		<input type="submit" value="Potvrdi" name="submit" />
+	</form>
+	<p><h1>Forma za registraciju:</h1></p>
+	<form onsubmit="return provera()">
+		<p>KORISNIČKO IME: <input type="text" name="korisnikreg" /></p><br/>
+		<p>IME I PREZIME: <input type="text" name="ime" /></p><br/>
+		<p>E-MAIL: <input type="text" name="mail" /></p><br/>
+		<p>PONOVITE E-MAIL: <input type="text" name="mail" /></p><br/>
+		<p>ŠIFRA: <input type="password" name="sifra" /></p><br/>
+		<p>PONOVITE ŠIFRU: <input type="password" name="sifra"/></p>
+	<br/>
+	<input type="submit" value="Potvrdi" name="submit" />
+	<input type="reset" value="Resetuj" name="reset" />
+	</form>
+		
+	
+	<div id="pitajtenas">
+		
+		<form name="pitanja" action="index.html" method="get" onsubmit="return provera()">
+		IME : <input type="text" name="imepitajte"><br />
+		MAIL: <input type="text" name="mailpitajte"><br />
+		<textarea rows="5" cols="22">PITAJTE NAS</textarea>
+		<input type="submit" value="Potvrdi">
+		<input type="reset" value="Resetuj">
+		</form>
+	</div>
+</div>
+
+
+<div id="footer">
+Designed by Puyo Shotka
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/*
+imas i ovdje gresku, ovo forms[0] ti se odnosi na prvu formu na stranici a ti imas tri forme a na svim mjestima pozivas forms[0], treba da stavis forms[i] i=0,1,2 u zavisnosti od forme koju ciljas
+
+posto imas 3 forme a pozivas samo jednu funkciju koja treba da provjeri sve tri mislim da ti nece raditi kako treba, npr. ako korisnik ima nalog i hoce da se uloguje prijavice gresku jer nisu popunjena ova ostala polja zato sto ti ova funkcija provjerava sve forme odjednom, a kad se korisnik loguje ti hoces samo da provjeris prvu formu
+
+mozes da razbijes ovu funkciju na tri razlicite i u svaku strpas provjeru za odgovarajuca
+polja pa onda tamo u html za svaku formu pozoves odgovarajucu funkciju (preko onsubmit atributa) koja ce samo nju da provjeri
+
+valjda je to to, ako nisam nesto zeznuo
+*/
+function provera(){
+	if (document.forms[0].korisnik.value==""){
+	alert ("Niste uneli korisničko ime.");
+	document.forms[0].korisnik.focus();
+	return false;
+	}
+	
+	if (document.forms[0].korisnikreg.value==""){
+	alert ("Niste uneli korisničko ime.");
+	document.forms[0].korisnikreg.focus();
+	return false;
+	}
+	
+	if (document.forms[0].ime.value==""){
+		alert ("Niste uneli ime.");
+		document.forms[0].ime.focus();
+	return false;
+	}
+	
+	if (document.forms[0].mail.value==""){
+			alert ("Niste uneli E-mail.");
+			document.forms[0].mail.focus();
+	return false;
+	}
+	if(document.forms[0].mail.value.indexOf('@')=-1){
+		alert("uneti E-mail nije u odgovarajucem formatu.");
+		document.forms[0].mail.focus();
+	return false;
+	}
+	if (document.forms[0].sifra.value==""){
+			alert ("Niste uneli šifru.");
+			document.forms[0].sifra.focus();
+	return false;
+	}
+	if (document.forms[0].sifrakorisnika.value==""){
+			alert ("Niste uneli šifru.");
+			document.forms[0].sifrakorisnika.focus();
+	return false;
+	}
+}
+
