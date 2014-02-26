@@ -119,7 +119,6 @@ _______________________________________________*/
 
 .main-navigation li {
 	border: solid 3px red;
-margin-left: 3px;
 }
 
 .main-navigation a {

@@ -68,10 +68,18 @@
 				</nav><!-- #site-navigation -->
 		</div>	
 		
+
+
+		<!--<?php echo do_shortcode( '[advps-slideshow optset="3"]' ); ?> --> 
+
+
 		<?php
 		if ( (function_exists( 'of_get_option' )) && (of_get_option('slidetitle5',true) !=1) ) {
 		if ( ( of_get_option('slider_enabled') != 0 ) && ( (is_home() == true) || (is_front_page() == true) ) )  
 			{ ?>
+
+		<?php echo do_shortcode( '[advps-slideshow optset="3"]' ); ?>
+
 		<!-- !!!!!!!!! --><div class="slider-parent">	
 		<div class="slider-wrapper theme-default container"> 
 	    	<div class="ribbon"></div>    
