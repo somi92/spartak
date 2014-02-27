@@ -14,6 +14,7 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
 <?php wp_head(); ?>
 </head>
@@ -58,7 +59,7 @@
 		</header><!-- #masthead -->
 		
 		<div id="nav-wrapper">
-				<nav id="site-navigation" class="main-navigation" role="navigation">
+				<nav class="social" id="site-navigation" class="main-navigation" role="navigation">
 					
 						<h1 class="menu-toggle"><?php _e( 'Menu', 'sixteen' ); ?></h1>
 						<div class="screen-reader-text skip-link"><a href="#content"><?php _e( 'Skip to content', 'sixteen' ); ?></a></div>
@@ -74,10 +75,11 @@
 
 
 		<?php
-echo do_shortcode( '[advps-slideshow optset="3"]' );
 		if ( (function_exists( 'of_get_option' )) && (of_get_option('slidetitle5',true) !=1) ) {
 		if ( ( of_get_option('slider_enabled') != 0 ) && ( (is_home() == true) || (is_front_page() == true) ) )  
 			{ ?>
+
+		<?php echo do_shortcode( '[advps-slideshow optset="3"]' ); ?>
 
 		<!-- !!!!!!!!! --><div class="slider-parent">	
 		<div class="slider-wrapper theme-default container"> 
