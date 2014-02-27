@@ -81,9 +81,12 @@ header .site-description {
   font-weight: lighter;
 }
 header #social-icons img {
-  width: 40px;
-  padding-top: 30px;
+  width: 60px;
+  /*padding-top: 30px;*/
+padding-top: 10px;
   padding-right: 5px;
+margin-top: 70px;
+float: right;
   transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
@@ -104,11 +107,11 @@ _______________________________________________*/
 .main-navigation {
   display: inline-block;
   background: #100d0a;
-  /*border: solid 3px #211e1b;*/
   border: solid 3px #211e1b;
+/*border: solid 3px #211e1b;*/
   clear: both;
   margin: auto;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   height: auto;
   text-align: left;
 }
@@ -118,8 +121,8 @@ _______________________________________________*/
 }
 
 .main-navigation li {
-	border: solid 3px red;
-margin-left: 3px;
+	/*border: solid 3px red;*/
+margin-left: 4px;
 }
 
 .main-navigation a {

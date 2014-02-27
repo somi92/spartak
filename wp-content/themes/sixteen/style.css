@@ -390,7 +390,7 @@ textarea {
 
 .site-branding {
 	/*border: 1px blue solid;*/
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 	
 }
 
@@ -468,7 +468,7 @@ font-weight: bold;
 
 #content {
 	border: 5px white solid;
-	margin-top: 5px;
+	/*margin-top: 5px;*/
 }
 
 .sticky {
