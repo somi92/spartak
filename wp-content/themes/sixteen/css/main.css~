@@ -140,7 +140,7 @@ color: #B20000;
 }
 
 .main-navigation li {
-	/*border: solid 3px red;*/
+	/*border: solid 1px red;*/
 margin-left: 4px;
 color: #B20000;
 }
@@ -727,8 +727,7 @@ h2#page-title:first-letter,
     margin-left: -50px;
   }
   .site-title a {
-    /*font-size: x-large;*/
-font-size: 60px;
+    font-size: x-large;
   }
   .site-description {
     font-size: x-small;
