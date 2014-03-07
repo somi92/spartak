@@ -21,10 +21,10 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'sixteen' ) ); ?>
+		<?php the_content( __( 'Nastavite čitanje <span class="meta-nav">&rarr;</span>', 'sixteen' ) ); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'sixteen' ),
+				'before' => '<div class="page-links">' . __( 'Stranice:', 'sixteen' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -39,7 +39,7 @@
 				if ( $categories_list && sixteen_categorized_blog() ) :
 			?>
 			<span class="cat-links">
-				<?php printf( __( 'Posted in %1$s', 'sixteen' ), $categories_list ); ?>
+				<?php printf( __( 'Objavljeno u %1$s', 'sixteen' ), $categories_list ); ?>
 			</span>
 			<?php endif; // End if categories ?>
 
@@ -49,15 +49,15 @@
 				if ( $tags_list ) :
 			?>
 			<span class="tags-links">
-				<?php printf( __( 'Tagged %1$s', 'sixteen' ), $tags_list ); ?>
+				<?php printf( __( 'Označeno %1$s', 'sixteen' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
 
 		<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-		<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'sixteen' ), __( '1 Comment', 'sixteen' ), __( '% Comments', 'sixteen' ) ); ?></span>
+		<span class="comments-link"><?php comments_popup_link( __( 'Ostavite komentar', 'sixteen' ), __( '1 Komentar', 'sixteen' ), __( '% Komentara', 'sixteen' ) ); ?></span>
 		<?php endif; ?>
 
-		<?php edit_post_link( __( 'Edit', 'sixteen' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Promjeni', 'sixteen' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->

@@ -16,7 +16,8 @@
       <?php if ( of_get_option('credit1', true) == 0 ) { ?>
 		<div class="site-info">
 			<?php do_action( 'sixteen_credits' ); ?>
-			<?php printf( __( 'Sixteen Theme by %1$s', 'sixteen' ), '<a href="http://inkhive.com" rel="designer">InkHive</a>' ); ?>
+			<!-- <?php printf( __( 'Sixteen Theme by %1$s', 'sixteen' ), '<a href="http://inkhive.com" rel="designer">InkHive</a>' ); ?> -->
+			<?php printf( __( 'Powered by Wordpress & %1$s', 'sixteen' ), '<a href="http://inkhive.com" rel="designer">InkHive</a>' ); ?>
 		</div><!-- .site-info -->
       <?php } //endif ?>  
         <div id="footertext">

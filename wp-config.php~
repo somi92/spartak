@@ -16,14 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('WP_CACHE', true); //Added by WP-Cache Manager
-define('DB_NAME', 'pkadrena_db');
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'pkadrena_admin');
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'N25xEaTST$2!');
+define('DB_PASSWORD', 'blogData2013');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -43,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '|1@)i^ZYo,S$f(.y;j_E|.%KjM2k8 ]AuFD9Hh#NY,F@kZ-p*BFF#Cuf.7Q+AUg-');
-define('SECURE_AUTH_KEY',  'Z++W=QD8Q{?#ztaJw N=Vt||A2kptS%S}IT9pG!(c5R15t,,Qm(T*6$.=jb>3L;M');
-define('LOGGED_IN_KEY',    'H6-$NP>Q+S+ZUjZ${tgGB?ej2B:)?*3=deI4P+p}bQys!]-0^VUd`INdyUY-kZdy');
-define('NONCE_KEY',        '|hn~7N/8>+Iw#]51p|6V+>P+iU}9M]:TOFvPcAwUS+2O1-f*(VF_!+8gF(=;NHqn');
-define('AUTH_SALT',        '#4{@V|mTT{wC@&98rs9:02vk%w$MGM7cU~RV*CY<XRbi8,epZA@rw_r.=JIYlgCF');
-define('SECURE_AUTH_SALT', 'U#+]L.$Ta!$l+fk^VnH9=]^])*|1C;`ai.cyY*1NmBvUnDUiCo8*hcunwY|A+Se-');
-define('LOGGED_IN_SALT',   'H={RU@<]m2-&,%5kdkFeg,8ie<#F77smY-%}?6`RW&8A+sM>;@VVA{LYbvW|(M,P');
-define('NONCE_SALT',       'A4cKwr~Y|X+rPon| UMi@&^fRl53_FO&zK5ufdWcb6_EHb mw:/?f?3L>b+|F|Jk');
+define('AUTH_KEY',         '?)mk;)<X;3cPi60>{AtH>ALweU@S:)^d[*?F3|V4aB4`|va+<K#^){|` ,:.kf?-');
+define('SECURE_AUTH_KEY',  '[J))SF}1?C~K%&r,s.?F|]O/ao/0p%S2KXb&f@[iMcoJ=L,hACXx`Pe sv&3YR>-');
+define('LOGGED_IN_KEY',    'FRx)W-60jcsu+:q})dz;6G2&)-;bz$0|8ae+I-?,59&D2S]R&}G{KO8:G@-[ae/J');
+define('NONCE_KEY',        'tnT$}^~3L$l;!=qT@xj, (/4(t*~t|*lgg>IA|@_o-!$[VKBE3hT2+i~^F+N@<HN');
+define('AUTH_SALT',        'Ofn^B@s=tQx4:?gl.1dlF^RDY$`5Qi d|-(bAAsdtmsXm&L?CZ)Rn WI(SC?v$O#');
+define('SECURE_AUTH_SALT', '|M];pYP:,jha<kQXC)l YD=Y2;JL|i|4zD[.;ubCf|W{}a?T:yKE Zw.;_(kZ{YQ');
+define('LOGGED_IN_SALT',   'djpMi2jA}D<4~H*l^;ju@:$!LjdAa/2L+&}g74C:cu:jd/JTu%9K4xutlV-JaT_D');
+define('NONCE_SALT',       'z-ZM^y#I[a-i&hfd8[,h3h,3@z*Mockee=SpCLKKj2cK@{>crp;L@O]gf=v!_rb1');
 
 /**#@-*/
 
@@ -70,7 +69,7 @@ $table_prefix  = 'wp_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
  * language support.
  */
-define('WPLANG', '');
+define('WPLANG', 'bs_BA');
 
 /**
  * For developers: WordPress debugging mode.
@@ -89,3 +88,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
