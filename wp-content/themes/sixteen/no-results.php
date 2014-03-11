@@ -10,7 +10,7 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php _e( 'Nothing Found', 'sixteen' ); ?></h1>
+		<h1 class="page-title"><?php _e( 'Nije pronađeno', 'sixteen' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="page-content">
@@ -20,7 +20,8 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'sixteen' ); ?></p>
+			<!-- <p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'sixteen' ); ?></p> -->
+			<p><?php _e( 'Nažalost, nemamo rezultata za traženi pojam. Molimo vas pokušajte ponovo sa drugačijim ključnim riječima.', 'sixteen' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php else : ?>
